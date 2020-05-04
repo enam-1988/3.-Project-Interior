@@ -1,0 +1,115 @@
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  .top-nav{
+	display: none;
+}
+
+.banner-text h6{
+	font-size: 20px;
+}
+
+.banner-text h1{
+	font-size: 40px;
+}
+
+
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+.top-nav{
+	display: none;
+}
+
+.banner-text h6{
+	font-size: 20px;
+}
+
+.banner-text h1{
+	font-size: 40px;
+}
+
+/*****************/
+
+
+.grid{
+	margin-top: 20%;
+}
+
+.card{
+	margin-bottom: 20px;
+}
+
+
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+  
+.top-nav{
+	display: none;
+}
+
+.banner-text h6{
+	font-size: 20px;
+}
+
+.banner-text h1{
+	font-size: 40px;
+}
+/***********/
+
+.grid{
+	margin-top: 20%;
+}
+
+.card{
+	margin-bottom: 20px;
+}
+
+
+
+.card-title p{
+	font-size: 10px;
+	color: white;
+}
+
+.panel-heading a{
+	font-size: 9px ! important;
+	text-decoration: none;
+	width: 280px ! important;
+}
+
+.image-grid{
+	
+}
+
+/**/
+
+.navbar-wrapper {
+  margin-top:0px;
+}
+
+
+
+
+/******/
+}

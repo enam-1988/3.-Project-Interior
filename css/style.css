@@ -1,0 +1,450 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'Fira Mono', monospace;
+	padding-bottom: 0px ! important;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Fira Mono', monospace;
+}
+
+p{
+	font-family: 'Fira Mono', monospace;
+}
+
+a{
+	font-family: 'Fira Mono', monospace;
+}
+
+button{
+	font-family: 'Fira Mono', monospace;
+}
+
+/*Global Css End*/
+
+
+/*Header Section Start*****************************/
+
+
+.header{
+	background-image: url(../image/1.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+
+.header-lay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,.5);
+}
+
+
+/*Top start*/
+
+
+.header i{
+	color: white;
+	font-size: 20px;
+}
+
+.header span{
+	color: white;
+}
+
+/*Top End*/
+
+
+/*Navbar Start*/
+
+
+.navbar{
+	background-color: transparent ! important;
+	border-top: 0.2px solid black;
+}
+
+.navbar-brand{
+	color: white ! important;
+	font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: white;
+	font-weight: 300;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+	color: white;
+	font-weight: 300;
+}
+
+/*Navbar End*/
+
+.banner-text{
+	margin: 60px auto;
+}
+
+.banner-text h6{
+	color: white;
+	font-size: 30px;
+	margin-bottom: 20px;
+
+}
+
+.banner-text h1{
+	color: white;
+	font-size: 55px;
+	font-weight: bold;
+	margin-bottom: 25px;
+	text-shadow: 2px 2px 5px rgba(0,0,0,.6);
+}
+
+/*****/
+/*Header Section End*******************************/
+
+/*grid start*/
+
+
+.grid{
+	padding: 0px 0px;
+	margin-top: -15%;
+}
+
+.card{
+	background-color: rgba(0,0,0,.5 );
+	height: 25vh;
+	box-shadow: 2px 2px 5px rgba(0,0,0,.3);
+
+}
+
+.card img{
+	width: 50px;
+	height: 50px;
+}
+
+.card-img i{
+	color:  white;
+	font-size: 25px;
+}
+
+.card-title h6{
+	color: white;
+	font-weight: bold;
+}
+.card-title p{
+	font-size: 13px;
+	color: white;
+}
+
+/*grid end*/
+
+/*Creative Start*/
+
+
+.creative{
+	padding: 100px 0px;
+}
+
+.cre-inner-img img{
+	width: 60px;
+	margin-right: 10px;
+}
+
+.cre-inner-text h6{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.cre-inner-text p{
+	font-size: 12px;
+	text-align: left;
+}
+/*Creative End*/
+
+/*Why Section Start*/
+
+.why{
+	padding: 0px 0px;
+}
+
+.why-left-inner{
+	position: relative;
+	overflow: hidden;
+	box-shadow: 2px 2px 10px rgba(0,0,0,.4);
+}
+
+.why-left-inner img{
+	position: block;
+	z-index: 0;
+}
+
+.why-left-inner:hover img{
+	transform: scale(1.5);
+	transition: all 0.9s ease;
+}
+
+.layer{
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	width: 90%;
+	height: 90%;
+	border: 10px solid black;
+	z-index: 1;
+}
+
+.why-text p{
+	font-size: 20px;
+	color: red;
+}
+
+.why-text h6{
+	font-size: 40px;
+	margin-bottom: 50px;
+}
+
+.panel-heading a{
+	font-size: 15px;
+	text-decoration: none;
+}
+
+/*Why Section End*/
+
+/*Slider start*/
+
+.slider{
+	padding: 100px 0px;
+}
+
+.slider-top p{
+	font-size: 15px;
+	color: red;
+}
+
+.slider-top h6{
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+
+.item img{
+	width: 100px ! important;
+	border-radius: 50%;
+	margin-bottom: 30px ! important;
+	margin: 0px auto;
+}
+
+.item h6{
+	font-size: 20px;
+	color: red;
+}
+
+.item h1{
+	font-size: 13px;
+}
+
+.item p{
+	font-size: 12px;
+	padding: 0px 50px;
+}
+
+
+/*Slider End*/
+
+/*image-grid start*/
+.image-grid{
+	padding: 100px 0px;
+}
+
+.image-grid-left-inner{
+	position: relative;
+	overflow: hidden;
+	box-shadow: 2px 2px 10px rgba(0,0,0,.4);
+}
+
+.image-grid-left-inner img{
+	position: block;
+	z-index: 0;
+}
+
+.image-grid-left-inner:hover img{
+	transform: scale(1.5);
+	transition: all 0.9s ease;
+}
+
+.image-grid-layer{
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	width: 90%;
+	height: 90%;
+	border: 10px solid black;
+	z-index: 1;
+}
+
+.right-image-grid{
+	height: 280px;
+	border-radius: 0px;
+	background-color: white;
+}
+
+.right-image-grid img{
+	width: 100px;
+	height: 100px;
+	margin: 0px auto;
+	padding-right: 0px;
+	margin-top: 50px;
+}
+
+
+.right-image-grid h5{
+	color: red;
+}
+/*image-grid end*/
+
+
+/*Blog Section Start*/
+
+
+.blog{
+	padding: 100px 0px;
+}
+
+.blog-top h6{
+	color: red;
+}
+
+.blog-top h1{
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 100px;
+}
+
+.hov-img{
+	overflow: hidden;
+	box-shadow: 2px 2px 10px rgba(0,0,0,.4);
+}
+
+.hov-img img{
+	display: block;
+}
+
+.hov-img:hover img{
+	transform: scale(1.2);
+	transition: all 0.9s ease-in-out;
+}
+
+.blog-text span{
+	color: grey;
+	font-size: 13px;
+}
+
+.blog-text p{
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.btn-success{
+	border-radius: 0px;
+	background-color: rgb(135,206,250);
+	border: 0px;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 10px 20px;
+}
+
+.btn-success:hover{
+	background-color: transparent ! important;
+	border: 2px solid rgb(135,206,250);
+	color: rgb(135,206,250);
+	transition: 0.6s;
+}
+
+/*Blog Section End*/
+
+/*Footer Section Start*/
+
+
+.footer{
+	padding-top: 100px;
+	background-color: rgba(0,0,0,.9);
+	width: 100%;
+	margin-top: 0px;
+}
+
+.foot-part{
+	margin-bottom: 30px;
+}
+
+.foot-img img{
+	width: 70px;
+	height: 70px;
+	margin-right: 30px;
+	border-radius: 10px;
+}
+
+.footer h2{
+	font-size: 25px;
+	margin-bottom: 20px;
+	color: white;
+}
+
+.footer p{
+	font-size: 13px;
+	color: grey;
+}
+
+.footer a{
+	color: grey;
+}
+
+.input-group input{
+	width: 10px ! important;
+	background-color: transparent;
+	border-radius: 0px;
+}
+
+.input-group-append a{
+	font-size: 15px ! important;
+}
+
+.follow i{
+	font-size: 20px ! important;
+}
+
+
+/*Footer Estion End*/
+
+
+
+/*********Stickup CSS CODE****************/
+
+
+.isStuck{
+    left:0px;
+    width:100%;
+    background: rgba(0,0,0,.8) ! important;
+    transition: all 0.5s ease;
+}
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+.navbar-wrapper {
+  margin-top:0px ! important;
+  position: relative;
+  z-index: 15;
+  width: 100%;
+  transition: all 0.5s ease;
+}
